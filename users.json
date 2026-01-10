@@ -1,0 +1,39 @@
+{
+  "licenses": [
+    {
+      "username": "AdminUser",
+      "key": "admin123",
+      "hwid": "",
+      "active": true,
+      "valid_until": "Lifetime"
+    },
+    {
+      "username": "MonthlyUser",
+      "key": "month123",
+      "hwid": "",
+      "active": true,
+      "valid_until": "2026-02-10"
+    },
+    {
+      "username": "TrialUser",
+      "key": "trial123",
+      "hwid": "DEADBEEFCAFEBABE",
+      "active": true,
+      "valid_until": "2026-01-20"
+    },
+    {
+      "username": "ExpiredUser",
+      "key": "expired123",
+      "hwid": "",
+      "active": true,
+      "valid_until": "2025-12-31"
+    },
+    {
+      "username": "BannedUser",
+      "key": "banned123",
+      "hwid": "",
+      "active": false,
+      "valid_until": "2026-12-31"
+    }
+  ]
+}
