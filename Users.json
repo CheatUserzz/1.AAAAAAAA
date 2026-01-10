@@ -1,10 +1,46 @@
 {
   "licenses": [
     {
-      "key": "TESTE-12345-ABCDE",
+      "key": "LIFETIME-12345-ABCDE-67890",
       "hwid": "2AACBF62F401018D",
-      "username": "Admin",
-      "active": true
+      "username": "AdminUser",
+      "active": true,
+      "valid_until": "Lifetime"
+    },
+    {
+      "key": "MONTHLY-98765-ZYXWV-54321",
+      "hwid": "H8G7F6E5D4C3B2A1",
+      "username": "MonthlyUser",
+      "active": true,
+      "valid_until": "2026-02-10"
+    },
+    {
+      "key": "TRIAL-11111-TTTTT-22222",
+      "hwid": "DEADBEEFCAFEBABE",
+      "username": "TrialUser",
+      "active": true,
+      "valid_until": "2026-01-20"
+    },
+    {
+      "key": "EXPIRED-33333-XXXXX-44444",
+      "hwid": "1234567890ABCDEF",
+      "username": "ExpiredUser",
+      "active": true,
+      "valid_until": "2025-12-31"
+    },
+    {
+      "key": "BANNED-55555-BBBBB-66666",
+      "hwid": "FEDCBA0987654321",
+      "username": "BannedUser",
+      "active": false,
+      "valid_until": "2026-12-31"
+    },
+    {
+      "key": "YEARLY-77777-YYYYY-88888",
+      "hwid": "9876543210FEDCBA",
+      "username": "YearlyUser",
+      "active": true,
+      "valid_until": "2027-01-10"
     }
   ]
 }
