@@ -1,0 +1,10 @@
+{
+  "licenses": [
+    {
+      "key": "TESTE-12345-ABCDE",
+      "hwid": "SEU_HWID_AQUI",
+      "username": "Admin",
+      "active": true
+    }
+  ]
+}
