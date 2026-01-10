@@ -1,46 +1,39 @@
 {
   "licenses": [
     {
-      "key": "01",
-      "hwid": "2AACBF62F401018D",
       "username": "AdminUser",
+      "key": "admin123",
+      "hwid": "",
       "active": true,
       "valid_until": "Lifetime"
     },
     {
-      "key": "MONTHLY-98765-ZYXWV-54321",
-      "hwid": "H8G7F6E5D4C3B2A1",
       "username": "MonthlyUser",
+      "key": "month123",
+      "hwid": "",
       "active": true,
       "valid_until": "2026-02-10"
     },
     {
-      "key": "TRIAL-11111-TTTTT-22222",
-      "hwid": "DEADBEEFCAFEBABE",
       "username": "TrialUser",
+      "key": "trial123",
+      "hwid": "DEADBEEFCAFEBABE",
       "active": true,
       "valid_until": "2026-01-20"
     },
     {
-      "key": "EXPIRED-33333-XXXXX-44444",
-      "hwid": "1234567890ABCDEF",
       "username": "ExpiredUser",
+      "key": "expired123",
+      "hwid": "",
       "active": true,
       "valid_until": "2025-12-31"
     },
     {
-      "key": "BANNED-55555-BBBBB-66666",
-      "hwid": "FEDCBA0987654321",
       "username": "BannedUser",
+      "key": "banned123",
+      "hwid": "",
       "active": false,
       "valid_until": "2026-12-31"
-    },
-    {
-      "key": "YEARLY-77777-YYYYY-88888",
-      "hwid": "9876543210FEDCBA",
-      "username": "YearlyUser",
-      "active": true,
-      "valid_until": "2027-01-10"
     }
   ]
 }
