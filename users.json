@@ -1,39 +1,29 @@
 {
-  "licenses": [
+  "users": [
     {
-      "username": "AdminUser",
-      "key": "admin123",
-      "hwid": "",
+      "username": "user1",
+      "key": "WHITE-KEY-001",
+      "active": true,
+      "valid_until": "2026-12-31"
+    },
+    {
+      "username": "user2",
+      "key": "WHITE-KEY-002",
       "active": true,
       "valid_until": "Lifetime"
     },
     {
-      "username": "MonthlyUser",
-      "key": "month123",
-      "hwid": "",
-      "active": true,
-      "valid_until": "2026-02-10"
-    },
-    {
-      "username": "TrialUser",
-      "key": "trial123",
-      "hwid": "DEADBEEFCAFEBABE",
-      "active": true,
-      "valid_until": "2026-01-20"
-    },
-    {
-      "username": "ExpiredUser",
-      "key": "expired123",
-      "hwid": "",
-      "active": true,
-      "valid_until": "2025-12-31"
-    },
-    {
-      "username": "BannedUser",
-      "key": "banned123",
-      "hwid": "",
+      "username": "user3",
+      "key": "WHITE-KEY-003",
       "active": false,
-      "valid_until": "2026-12-31"
+      "valid_until": "2025-06-15"
+    },
+    {
+      "username": "admin",
+      "key": "WHITE-ADMIN-999",
+      "active": true,
+      "valid_until": "Lifetime"
     }
-  ]
+  ],
+  "version": "1.0"
 }
