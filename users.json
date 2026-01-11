@@ -1,29 +1,22 @@
 {
   "users": [
     {
+      "username": "admin",
+      "key": "123456",
+      "active": true,
+      "valid_until": "Lifetime"
+    },
+    {
       "username": "user1",
-      "key": "WHITE-KEY-001",
+      "key": "test123",
       "active": true,
       "valid_until": "2026-12-31"
     },
     {
       "username": "user2",
-      "key": "WHITE-KEY-002",
-      "active": true,
-      "valid_until": "Lifetime"
-    },
-    {
-      "username": "user3",
-      "key": "WHITE-KEY-003",
+      "key": "abc123",
       "active": false,
-      "valid_until": "2025-06-15"
-    },
-    {
-      "username": "admin",
-      "key": "WHITE-ADMIN-999",
-      "active": true,
-      "valid_until": "Lifetime"
+      "valid_until": "2025-01-01"
     }
-  ],
-  "version": "1.0"
+  ]
 }
